@@ -1,0 +1,150 @@
+[Root]
+Most Recent Package=Standard Setup Package 1
+
+
+[Package|Standard Setup Package 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=d:\Documents and Settings\shail\Desktop\Treeli~1
+
+[Package|Standard Setup Package 1|Configure DAO ISAMs]
+Applicable=Yes
+Xbase=No
+Excel=No
+Exchange=No
+Text=No
+Jet 2.x=Yes
+Lotus=No
+Paradox=No
+
+[Package|Standard Setup Package 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 1|Files Found]
+
+[Package|Standard Setup Package 1|Files Released]
+SHAILCdShelf.CHI=
+
+[Package|Standard Setup Package 1|Missing Dependency Information]
+D:\Program Files\Common Files\System\ado\msado20.tlb=
+
+[Package|Standard Setup Package 1|Out-of-Date Dependency Information]
+D:\WINDOWS\system32\Comdlg32.ocx=
+D:\WINDOWS\system32\MSSTDFMT.DLL=
+D:\WINDOWS\system32\mscomct2.ocx=
+
+[Package|Standard Setup Package 1|Files Added]
+c:\new\vb\cd-shelf\shailcdshelf.chm=
+C:\New\VB\CD-shelf\CD.dat=
+
+[Package|Standard Setup Package 1|Files Removed]
+
+[Package|Standard Setup Package 1|Files In Project]
+C:\New\VB\CD-shelf\SHAILCdShelf.exe=Yes
+D:\WINDOWS\system32\msvbvm60.dll=Yes
+D:\WINDOWS\system32\oleaut32.dll=Yes
+D:\WINDOWS\system32\olepro32.dll=Yes
+D:\WINDOWS\system32\asycfilt.dll=Yes
+D:\WINDOWS\system32\stdole2.tlb=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+D:\WINDOWS\system32\MSCOMCT2.OCX=Yes
+D:\Program Files\Common Files\Microsoft Shared\DAO\DAO350.DLL=Yes
+D:\WINDOWS\system32\MSJET35.DLL=Yes
+D:\WINDOWS\system32\MSJTER35.DLL=Yes
+D:\WINDOWS\system32\MSJINT35.DLL=Yes
+D:\WINDOWS\system32\vbajet32.dll=Yes
+D:\WINDOWS\system32\expsrv.dll=Yes
+D:\WINDOWS\system32\MSRD2X35.DLL=Yes
+D:\WINDOWS\system32\MSREPL35.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=Yes
+D:\WINDOWS\system32\VB5DB.DLL=Yes
+D:\WINDOWS\system32\MSDATLST.OCX=Yes
+D:\WINDOWS\system32\MSADODC.OCX=Yes
+D:\WINDOWS\system32\MSSTDFMT.DLL=Yes
+D:\Program Files\Common Files\System\ado\msado20.tlb=Yes
+D:\WINDOWS\system32\MSDBRPTR.DLL=Yes
+D:\WINDOWS\system32\Comdlg32.ocx=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+D:\WINDOWS\system32\VB6STKIT.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\New\VB\CD-shelf\SHAILCdShelf.chm=Yes
+D:\WINDOWS\system32\hhctrl.ocx=Yes
+D:\WINDOWS\system32\itss.dll=Yes
+D:\WINDOWS\system32\itircl.dll=Yes
+D:\WINDOWS\hh.exe=Yes
+C:\New\VB\CD-shelf\CD.dat=Yes
+
+[Package|Standard Setup Package 1|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 1|Install Locations]
+C:\New\VB\CD-shelf\SHAILCdShelf.exe=$(AppPath)
+D:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+D:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+D:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+D:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+D:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+D:\WINDOWS\system32\MSCOMCT2.OCX=$(WinSysPath)
+D:\Program Files\Common Files\Microsoft Shared\DAO\DAO350.DLL=$(MSDAOPath)
+D:\WINDOWS\system32\MSJET35.DLL=$(WinSysPathSysFile)
+D:\WINDOWS\system32\MSJTER35.DLL=$(WinSysPathSysFile)
+D:\WINDOWS\system32\MSJINT35.DLL=$(WinSysPathSysFile)
+D:\WINDOWS\system32\vbajet32.dll=$(WinSysPathSysFile)
+D:\WINDOWS\system32\expsrv.dll=$(WinSysPathSysFile)
+D:\WINDOWS\system32\MSRD2X35.DLL=$(WinSysPathSysFile)
+D:\WINDOWS\system32\MSREPL35.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+D:\WINDOWS\system32\VB5DB.DLL=$(WinSysPath)
+D:\WINDOWS\system32\MSDATLST.OCX=$(WinSysPath)
+D:\WINDOWS\system32\MSADODC.OCX=$(WinSysPath)
+D:\WINDOWS\system32\MSSTDFMT.DLL=$(WinSysPath)
+D:\Program Files\Common Files\System\ado\msado20.tlb=$(WinSysPath)
+D:\WINDOWS\system32\MSDBRPTR.DLL=$(WinSysPath)
+D:\WINDOWS\system32\Comdlg32.ocx=$(WinSysPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+D:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\New\VB\CD-shelf\SHAILCdShelf.chm=$(AppPath)
+D:\WINDOWS\system32\hhctrl.ocx=$(WinSysPath)
+D:\WINDOWS\system32\itss.dll=$(WinSysPath)
+D:\WINDOWS\system32\itircl.dll=$(WinSysPath)
+D:\WINDOWS\hh.exe=$(WinSysPath)
+C:\New\VB\CD-shelf\CD.dat=$(AppPath)
+
+[Package|Standard Setup Package 1|Configure Shared Files]
+Applicable=Yes
+C:\New\VB\CD-shelf\SHAILCdShelf.exe=No
+C:\New\VB\CD-shelf\SHAILCdShelf.chm=No
+C:\New\VB\CD-shelf\CD.dat=No
+
+[Package|Standard Setup Package 1|Distribution]
+Type=single
+Size=
+Title=SHAILCdShelf
+
+[Package|Standard Setup Package 1|Package]
+PackageFolder=d:\Documents and Settings\shail\Desktop\Treeli~1
+ProjectFolder=C:\New\VB\CD-shelf
+ServerSideCab=
+File1=d:\Documents and Settings\shail\Desktop\Treeli~1\setup.exe
+File2=d:\Documents and Settings\shail\Desktop\Treeli~1\Setup.Lst
+File3=d:\Documents and Settings\shail\Desktop\Treeli~1\SHAILCdShelf.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Package|Standard Setup Package 1|IconGroups]
+Group0=SHAILCdShelf
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 1|SHAILCdShelf]
+Icon1=SHAILCdShelf.exe
+Title1=SHAILCdShelf
+StartIn1=$(AppPath)
+Key1=Icon1

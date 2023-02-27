@@ -1,0 +1,7 @@
+Form1 = -21, -2, 674, 425, Z, -6, 6, 640, 450, C
+About = -19, 67, 552, 413, C, 64, 34, 531, 376, C
+DataEnvironment1 = -3, 93, 630, 439, C, 26, 14, 225, 236, C
+rptCurrentTitleOnly = 132, 132, 601, 478, C, -72, 14, 578, 556, CZ
+frmPrint = -104, 30, 678, 399, C, 134, 54, 442, 338, C
+rptAllTitlesNoContents = 0, 0, 0, 0, C, 7, 13, 591, 467, CZ
+rptAllTitlesWithContents = 0, 0, 0, 0, C, -46, -10, 558, 498, CZ
